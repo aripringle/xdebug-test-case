@@ -1,0 +1,13 @@
+{
+    "name": "root/xdebug-test-case",
+    "require": {
+        "zendframework/zendframework1": "^1.12",
+        "phpunit/phpunit": "^4.0"
+    },
+    "authors": [
+        {
+            "name": "jaydiablo",
+            "email": "jay@diablomedia.com"
+        }
+    ]
+}

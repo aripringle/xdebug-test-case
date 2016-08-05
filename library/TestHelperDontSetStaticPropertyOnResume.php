@@ -14,8 +14,6 @@ class TestHelper
     public static function resumeCodeCoverage()
     {
         xdebug_start_code_coverage(XDEBUG_CC_UNUSED | XDEBUG_CC_DEAD_CODE);
-
-        self::$coverageStopped = false;
     }
 
     public static function stopAndResumeCoverage()

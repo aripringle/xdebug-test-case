@@ -16,5 +16,5 @@ while setting static properties. I've included another test case that passes,
 and the only difference is that a static property isn't set to false after
 resuming code coverage. To run this:
 
-`./vendor/bin/phpunit --coverage-html=/var/www/html/coverage tests/NoStaticPropertyOnResumeTest.php.php`
+`./vendor/bin/phpunit --coverage-html=/var/www/html/coverage tests/NoStaticPropertyOnResumeTest.php`
 
